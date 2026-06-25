@@ -1,78 +1,76 @@
-# 🎵 Spotify Clone
+# 🎵 Spotify Web Player Clone
 
-A front-end clone of Spotify's Web Player, built to practice HTML, CSS, and vanilla JavaScript — including interactive UI elements like a working search filter, hover-to-play buttons, and a functional progress bar.
+A front-end clone of the Spotify Web Player, built using **HTML** and **CSS**. This project replicates the core layout of Spotify's interface — sidebar navigation, library section, recently played cards, featured charts, and a bottom music player bar.
 
-## 🔗 Live Demo
-[View it live](https://<your-username>.github.io/spotify-clone/)
+## 📌 Overview
 
-*(Replace `<your-username>` with your GitHub username once deployed)*
-
-## 📸 Screenshot
-*(Add a screenshot of your homepage here once deployed)*
-
-```md
-![Spotify Clone Screenshot](screenshot.png)
-```
+This project focuses on recreating Spotify's UI design and layout using pure HTML/CSS, without backend functionality. It's a great practice project for learning **Flexbox**, **responsive design basics**, and **UI replication** of a real-world, popular application.
 
 ## ✨ Features
-- Responsive sidebar navigation with library shortcuts
-- Recently Played, Trending, and Featured Charts sections with dynamic card layouts
-- Hover-triggered play button overlay on each card
-- Functional search bar that filters playlist/song cards in real time
-- Click-to-load: clicking any card loads its art and title into the bottom music player
-- Draggable progress bar that updates the current playback time
-- Play/pause toggle on the player controls
+
+- Sidebar with Home/Search navigation and Library section
+- "Create your first playlist" and "Browse podcasts" prompt boxes
+- Recently Played, Trending Now, and Featured Charts sections with card-based layout
+- Sticky top navigation bar with install app / explore premium buttons
+- Bottom music player bar with playback controls and a progress slider
+- Responsive hide/show behavior for smaller screens (media query at 1000px)
 
 ## 🛠️ Tech Stack
-- **HTML5** — semantic structure
-- **CSS3** — custom styling, flexbox-based layout
-- **JavaScript (Vanilla)** — DOM manipulation, event listeners, no frameworks
-- **Font Awesome** — icon library
-- **Google Fonts** — Montserrat Alternates
 
-## 📂 Project Structure
+- **HTML5** — page structure
+- **CSS3** (Flexbox) — layout and styling
+- **Font Awesome** — icons (house, search, plus, arrows, etc.)
+- **Google Fonts** — Montserrat & Montserrat Alternates
+
+## 📁 Project Structure
+
 ```
-spotify-clone/
-├── index.html          # Main HTML file
+├── Project1.html        # Main HTML file
 ├── Project1.css         # Stylesheet
-├── library_icon.png     # Sidebar icon
-├── player_icon1-5.png   # Player control icons
+├── logo.png             # Favicon
+├── library_icon.png
 ├── backward_icon.png
 ├── forward_icon.png
-├── logo.png              # Favicon
+├── player_icon1.png – player_icon5.png   # Music player control icons
+├── play_musicbar.png
+├── card1img.jpeg – card8img.jpeg         # Card thumbnail images
 └── README.md
 ```
 
 ## 🚀 Getting Started
 
-### Run locally
-```bash
-git clone https://github.com/<your-username>/spotify-clone.git
-cd spotify-clone
-python3 -m http.server 8000
+1. Clone or download this repository.
+2. Make sure all image assets (icons and card images) listed above are placed in the same folder as `Project1.html`.
+3. Open `Project1.html` in any modern web browser — no server or build step required.
+
+## 🖼️ Assets
+
+The following image files are included in the repository and required for the UI to render correctly:
+
 ```
-Then open `http://localhost:8000` in your browser.
+backward_icon.png, forward_icon.png, library_icon.png, logo.png,
+card1img.jpeg, card2img.jpeg, card3img.jpeg, card4img.jpeg,
+card5img.jpeg, card6img.jpeg, card7img.jpeg, card8img.jpeg,
+player_icon1.png, player_icon2.png, player_icon3.png,
+player_icon4.png, player_icon5.png, play_musicbar.png
+```
 
-Or simply double-click `index.html` to open it directly.
-
-## 📌 What I Learned
-- Structuring a multi-section layout with reusable card components
-- Using CSS pseudo-classes (`:hover`) to build interactive UI without JavaScript where possible
-- Handling DOM events (`click`, `input`) to build real interactivity: search, play/pause, and progress tracking
-- Organizing a front-end project for deployment on GitHub Pages
+All assets are placed in the root folder alongside `Project1.html`, so the project should work right out of the box after cloning.
 
 ## 🔮 Future Improvements
-- [ ] Hook up the HTML5 `<audio>` element to play real tracks
-- [ ] Add a backend (Node.js/Express) to serve song data via an API
-- [ ] User authentication and custom playlists
-- [ ] Dark/light theme toggle
-- [ ] Mobile-responsive layout for the sidebar and player
 
-## 👤 Author
-**Saumya Yadav**
-B.Tech CSE (AI & Textile Technology), NITRA Technical Campus
-
-- GitHub: [@your-username](https://github.com/<your-username>)
+- Add JavaScript functionality for play/pause, skip, and volume controls
+- Make the progress bar update dynamically with actual audio playback
+- Add real audio integration (e.g., using the HTML5 `<audio>` element or an API)
+- Improve responsiveness for mobile devices
+- Add a working search feature
 
 ## 📄 License
-This project is for educational/portfolio purposes only. Spotify branding and trademarks belong to Spotify AB — this is an unaffiliated clone built for learning front-end development.
+
+This project is for educational purposes only and is **not affiliated with or endorsed by Spotify**. All Spotify branding and trademarks belong to their respective owner.
+
+## 🙋 Author
+
+**Saumya Yadav**
+B.Tech CSE , NITRA Technical Campus
+Built as part of front-end development practice.
